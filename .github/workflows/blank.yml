@@ -29,4 +29,4 @@ jobs:
       - name: Run a one-line script
         run: sudo apt-get install qemu-kvm 
       - name: whatev
-        run: sudo qemu-kvm --version
+        run: sudo qemu-system-x86_64 --version
