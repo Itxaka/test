@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: sudo apt-get install qemu
+        run: sudo apt-get install qemu-kvm 
       - name: whatev
         run: qemu -v
